@@ -1,11 +1,13 @@
 @import "tailwindcss";
 .container{
-    margin: 40px auto;
-    max-width: 1200px;
+    @apply mx-auto my-10 max-w-[1200px]
 }
 
 .d-flex{
     display: flex;
+}
+.justify-content-between {
+    justify-content: space-between;
 }
 
 :root{
