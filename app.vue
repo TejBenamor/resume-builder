@@ -150,7 +150,7 @@
               :data-key="`education.${index}.skills`"
               @input="updateProperty"
             >
-              Skills Developed: {{ edu.skills }}
+              {{ edu.skills }}
             </em>
           </div>
         </div>
